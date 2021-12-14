@@ -2,13 +2,18 @@
     "name": "xtronpro-net",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "net": "*",
+        "net-game": "*",
+        "serial": "*"
     },
     "files": [
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json"
+        "assets.json",
+        "net.ts",
+        "atcontroller.ts"
     ],
     "testFiles": [
         "test.ts"
